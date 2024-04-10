@@ -5,13 +5,11 @@ import sys
 import warnings
 from setuptools import find_packages, setup
 
-
 def readme():
     """Load README.md."""
     with open('README.md', encoding='utf-8') as f:
         content = f.read()
     return content
-
 
 def get_version():
     """Get version of mmrotate."""
